@@ -35,7 +35,7 @@ public class ProductController {
 	        
 	       
 	        Product product = service.productObject(productModel);
-	        
+	        System.out.println("this is updated project");
 	     
 	        return ResponseEntity
 	                .status(HttpStatus.CREATED) 
