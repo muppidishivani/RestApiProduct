@@ -35,7 +35,7 @@ public class ProductController {
 	        
 	       
 	        Product product = service.productObject(productModel);
-	        
+	        System.out.println("this is product application");
 	     
 	        return ResponseEntity
 	                .status(HttpStatus.CREATED) 
